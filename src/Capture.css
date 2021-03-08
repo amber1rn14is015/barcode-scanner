@@ -1,0 +1,25 @@
+.selfie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cam, .preview {
+    position: relative;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.preview-img {
+    display: block;
+    width: 100%;
+}
+
+.video-player {
+    display: block;
+}
+
+.afterCaptureButton {
+    display: flex;
+    justify-content: space-evenly;
+}
